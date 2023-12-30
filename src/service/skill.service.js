@@ -10,6 +10,8 @@ async function createNewSkill(label, category, priority) {
   return data;
 }
 
-async function updateSkill(id, label, category, priority) {}
+async function updateSkill(id, label, category, priority) {
+  const data = 
+}
 
 module.exports = { getAllSkill, createNewSkill };
