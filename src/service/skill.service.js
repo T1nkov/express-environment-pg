@@ -14,4 +14,8 @@ async function updateSkill(id, label, category, priority) {
   const data = await getAllSkillDB();
 }
 
+
+async function updateAllSkill(id, label, category, priority) {
+  const data = await getAllSkillDB();
+}
 module.exports = { getAllSkill, createNewSkill };
